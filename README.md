@@ -13,3 +13,4 @@ I'm going to show-case my projects in this repository and also make a [GitHub pa
 8. Keplar Space Telescope Hunt for Exoplanets
 9. Mission2Mars - Web Scraping app
 10. Weather Analysis based on Geo-coordinates (OpenWeatherMap API)
+11. [Hate Crime Analysis in USA](https://github.com/Yogi-DS/Portfolio-Projects/tree/main/Hate%20Crime%20in%20US)
