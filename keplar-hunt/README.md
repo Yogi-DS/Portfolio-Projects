@@ -14,4 +14,4 @@ This dataset is a cumulative record of all observed Kepler "objects of interest"
 - koi_score: A value between 0 and 1 that indicates the confidence in the KOI disposition. For CANDIDATEs, a higher value indicates more confidence in its disposition, while for FALSE POSITIVEs, a higher value indicates less confidence in that disposition.
 
 To help process this data, we will create machine learning models capable of classifying candidate exoplanets from the raw dataset. Machine learning models capable of classifying candidate exoplanets from the raw dataset. This project involves using Deep learning model using Tensorflow Keras. I have also created Support Vector Machine, Logistic Regression model as well.
-1[](https://github.com/Yogi-DS/Portfolio-Projects/blob/main/keplar-hunt/Images/exoplanets.jpg)
+![Keplar](https://github.com/Yogi-DS/Portfolio-Projects/blob/main/keplar-hunt/Images/exoplanets.jpg)
