@@ -1,4 +1,4 @@
-# Employee Evaluation
+# Employee Evaluation - A Machine Learning approach
 This project is aimed to evaluate the employees' various parameters to determine whether they're eligible for promotion. Project is based on data exploration and building a classification model using machine learning algorithms.
 
 The Human Resources department has a big role in ensuring that an organization's promotions process is well functioning and managed by helping to guide employees' futures, maintaining clear policies and keeping workers engaged when they're not promoted.
