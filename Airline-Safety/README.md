@@ -4,4 +4,5 @@ There has been an upsurge in media attention related to the safety of air travel
 To examine the present scenario, I took on the task and looked at a variety of data sources. The study focused on the years 2000 to the present to see if air travel is still the safest mode of transportation.
 The following study and conclusions support the idea that airplane travel in the United States is both safe and profitable.
 
-This is a data visualization project solely based on Tableau. 
+This is a data visualization project solely based on Tableau. There are many visuals and a dashboard in this workbook. Here's the sneak peek.
+![Dashboard](https://github.com/Yogi-DS/Portfolio-Projects/blob/main/Airline-Safety/dashboard.png)
