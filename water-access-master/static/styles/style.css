@@ -1,0 +1,89 @@
+html,
+body {
+  /* width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px; */
+  background-repeat: no-repeat;
+  background-image: url("https://thirsty2thrive.s3-us-west-1.amazonaws.com/stockvault-kids-taking-bath218497.jpg");
+  background-size: 100%;
+
+}
+.jumbotron{
+  color: whitesmoke;
+  font-size: 100px;
+}
+
+.display-4 {
+  font-size: 15px;
+}
+#main_content {
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  background-color:rgba(1,1,1,0.8);
+  padding:10px 10px 50px 10px;
+  /* Vertical center */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#main_content2 {
+  z-index: 2;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  background-color:rgba(1,1,1,0.8);
+  padding:10px 10px 50px 10px;
+  /* Vertical center */
+  text-shadow: 2px 2px #000000;
+
+}
+.btn {
+
+}
+/* .jumbotron {
+    background-image: linear-gradient(rgb(42, 23, 110), rgb(38, 128, 180), rgb(255, 255, 255));
+    margin: 0;
+  } */
+
+.jumbotron iframe {
+    width: 100%;
+}
+
+.container h1 {
+  font-size: 36px;
+  padding: 15px;
+}
+
+
+#choropleth .svg-container {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  right: 10%;
+}
+
+.navbar.center .navbar-inner {
+    text-align: center;
+}
+
+.navbar.center .navbar-inner .nav {
+    display:inline-block;
+    float: none;
+}
+
+/*
+This disables navigation via the indicator slabs; Makes it easier to code
+for the slideID.
+*/
+@media (max-width: 2160px) {
+  .carousel-indicators,
+  .carousel-indicators li {
+    cursor: default;
+    pointer-events: none;
+  }
+}

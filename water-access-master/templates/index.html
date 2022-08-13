@@ -1,0 +1,114 @@
+{% extends "layout.html" %} {% block firstblock %}
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<section id="main_content">
+<div class="container">
+  <div class="jumbotron bg-transparent vertical-center">
+    <h1 class="text-center display-4"style="color: whitesmoke; font-size: 80px">Thirsty 2 Thrive</h1>
+    <p class="text-center lead">Diving Into Charity:Water</p>
+    <p class="text-center lead">Created in June of 2019 by Joe, Kayti, Spaar, and Yogi at UCBX Data Analytics Bootcamp</p>
+    <hr class="my-4">
+  </div>
+</section>
+</div>
+<section id="main">
+    <div class="text-center container">
+      <iframe
+        data-aos="flip-left"
+        title="vimeo-player"
+        src="https://player.vimeo.com/video/140235935"
+        width="1024"
+        height="720"
+        frameborder="0"
+        allowfullscreen
+      ></iframe>
+    </div>
+</section>
+<section>
+    <div class="text-center container">
+    <iframe src="http://www.strawpoll.me/embed_1/18245490" style="width:680px;height:342px;border:0;">Loading poll...</iframe>
+    </div>
+  </section>
+
+<section id="infoSection">
+  <!-- Maybe add a tweet about water from WHO or another organization in this section using webscraping  -->
+  <div class="text-center container">
+    <h1 data-aos="fade-right">
+      Charity:Water is known for it's unconventional financial opperations. They boast full transparency. We want to know if they have the data to back it up. 
+    </h1>
+    <h1 data-aos="fade-left">
+    </h1>
+  </div>
+</section>
+
+<br />
+
+<section id="chartSection">
+  <div class="text-center container-fluid">
+    <div class="row">
+      <div data-aos="zoom-in" id="myDiv" class="col"></div>
+
+      <div data-aos="zoom-in" id="myDiv2" class="col"></div>
+    </div>
+  </div>
+  <div class="text-center container">
+    <div class="row">
+      <div id="countrySelector" class="container col">
+        <label for="country">Select a country</label>
+        <select id="selCountry" onchange="filterPlot('myDiv', countrySelector)">
+          <option value="World" selected disabled hidden>World</option>
+        </select>
+      </div>
+      <br>
+      <br>
+      <div id="countrySelector" class="container col">
+        <label for="country">Select a country</label>
+        <select
+          id="selCountry2"
+          onchange="filterPlot('myDiv2', countrySelector2)"
+        >
+          <option value="United States" selected disabled hidden
+            >United States</option
+          >
+        </select>
+      </div>
+      <div>
+        <div id = "income-class-chart"></div>
+      </div>
+    </div>
+  </div>
+  <div id="line"></div>
+</section>
+<br>
+<br>
+<br>
+<br>
+<section>
+  <div class="text-center container">
+  <div data-aos="zoom-in" id="choropleth" style="position: relative; left: 10%"></div>
+  </div>
+<div>
+  <img src="../static/images/percentWwater.png" alt="" style="position: relative; left: 25%; margin-top: 5px;">
+</div>
+</section>
+
+<section>
+  <iframe src="https://ourworldindata.org/grapher/death-rate-unsafe-water-source?country=CAF" style="width: 100%; height: 600px; border: 0px none;">
+  </iframe>
+</section>
+
+
+<script src="{{url_for('static', filename='js/data.js')}}"></script>
+{% endblock %}
