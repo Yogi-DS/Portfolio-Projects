@@ -8,7 +8,7 @@ I'm going to show-case my projects in this repository and also make a [GitHub pa
 3. [Smart-phone activity classification](https://github.com/Yogi-DS/Portfolio-Projects/tree/main/smart-move)
 4. [Airline Safety](https://github.com/Yogi-DS/Portfolio-Projects/tree/main/Airline-Safety)
 5. [IMDB-Movie-Recommender](https://github.com/Yogi-DS/Portfolio-Projects/tree/main/Movie-Recommender)
-6. [WHO Infant Mortality Rate[(https://github.com/Yogi-DS/Portfolio-Projects/tree/main/WHO-Infant-Mortality)
+6. [WHO Infant Mortality Rate](https://github.com/Yogi-DS/Portfolio-Projects/tree/main/WHO-Infant-Mortality)
 7. [Global Water Access Exploration](https://github.com/Yogi-DS/Portfolio-Projects/tree/main/water-access)
 8. [Keplar Space Telescope Hunt for Exoplanets](https://github.com/Yogi-DS/Portfolio-Projects/tree/main/keplar-hunt)
 9. [Is an employee likely to be promoted?](https://github.com/Yogi-DS/Portfolio-Projects/tree/main/employee-evaluation)
